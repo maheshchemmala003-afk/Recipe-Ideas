@@ -23,11 +23,11 @@ export default function SearchBar({ onSearch }) {
         placeholder="Enter an ingredient (e.g., chicken)"
         className="px-4 py-2 rounded-lg text-black flex-1 focus:outline-none"
       />
-      <button
-        type="submit"
+       <button
+        type="submit" 
         className="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-lg text-white font-semibold"
       >
-        Search
+         Search
       </button>
     </form>
   );
